@@ -5,7 +5,9 @@ import Button from "ui/components/inputs/Button/Button";
 const Index: React.FC = () => {
     return (
         <View style={{ flex: 1, justifyContent: "center" }}>
-            <Button>Encontrar diarista</Button>
+            <Button mode={"contained"} onPress={() => {}}>
+                Encontrar diarista
+            </Button>
         </View>
     );
 };
