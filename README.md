@@ -1,5 +1,8 @@
 # e-diaristas-mobile
 
+Doing readme....
+
+
 ```bash
 expo start
 ```
