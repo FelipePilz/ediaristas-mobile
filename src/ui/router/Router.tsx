@@ -9,6 +9,11 @@ import { Image } from "react-native";
 
 const Stack = createStackNavigator();
 
+export type RootStackParamList = {
+    Index: undefined;
+    EncontrarDiaristas: undefined;
+};
+
 const Router: React.FC = () => {
     return (
         <NavigationContainer theme={NavigationTheme}>
